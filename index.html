@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somveer- Developer Personal Portfolio</title>
+    <meta name="title" content="PersonalPortfolio">
+    <meta name="description" content="This is a personal portfolio made by Somveer Singh">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Somveer's <span style="color:  rgb(187, 182, 17);">Portfolio</span></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">skills</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <img src="img/bg.jpg" alt="It's me">
+            </div>
+
+            <div class="rightSection">Hello,I'm Somveer Singh. <br> I'm <span style="color:rgb(181, 22, 144);"
+                    id="element"></span>
+            </div>
+
+        </section>
+        <section class="secondSection">
+            <div class="rightabt">
+                <h1>About <span style="color: rgb(187, 182, 17);">me</span></h1>
+                <p>A passionate Machine Learning Engineer, Android App Developer, and Web Developer focused on building responsive websites,<br> intuitive mobile applications, ,and intelligent systems driven by data.</p>
+                <p>Experienced through internships at CSIR-CRRI(Central Road Reseach Institute New Delhi) as Android Developer and As Front-end Dveloper at CodSoft , <br> with hands-on skills in responsive web design, Android app development, and machine learning model implementation. Dedicated to delivering efficient, user-centric, and scalable digital solutions.</p>
+
+                <button id="btn">Contact Us</button>
+
+            </div>
+            <div class="leftabt">
+                <img src="img/myimg.jpg" alt="It is me">
+                <div class="brdr"></div>
+            </div>
+        </section>
+        <section class="thirdSection">
+            <div class="service">
+                <h1>My <span style="color:rgb(187, 182, 17);">Services</span></h1>
+                <p>Offering end-to-end services in Web Development, Android App Development, and Machine Learning — delivering responsive websites, intuitive mobile apps, and intelligent systems powered by data.</p>
+                <p>Providing expert services in Web Development, Android App Development, Machine Learning, and UI/UX Design — crafting responsive websites, intelligent systems, seamless apps, and engaging user interfaces.</p>
+            </div>
+            <div class="container">
+                <div class="box one">
+                    <h2>Web Developement</h2>
+                    <p>Crafting responsive, dynamic, and visually appealing websites tailored to your needs using modern technologies like HTML, CSS, JavaScript, and React.</p>
+                </div>
+                <div class="box two">
+                    <h2>Android App</h2>
+                    <p>Designing and developing high-performance Android apps with intuitive interfaces, seamless functionality, and optimized performance for diverse user needs and devices.</p>
+                </div>
+                <div class="box three">
+                    <h2>ML Engineer</h2>
+                    <p>Designing and deploying machine learning models, analyzing data for insights, and building intelligent systems that solve real-world problems.</p>
+                </div>
+            </div>
+        </section>
+        <section>   
+            <footer>
+                <div class="footer">
+                    <div class="centerfooter">
+                        <h1 class="h1footer">Contact <span style="color:rgb(187, 182, 17);">me</span></h1>
+                        <p class="h2footer">Feel free to reach out. Let’s collaborate to bring your ideas to life!</p>
+                    </div>
+                    <div class="containerfooter">
+                        <div class="leftfooter">
+                            <p><span style="font-weight: 600;color:rgb(187, 182, 17); font-size: 22px;">Address:
+                                </span>Bijnor,UP,IND</p>
+                            <p><span style="font-weight: 600;color:rgb(187, 182, 17);font-size: 22px;">Phone:
+                                </span>+919690162617/3875</p>
+                            <p><span style="font-weight: 600;color:rgb(187, 182, 17);font-size: 22px;">E-mail:
+                                </span>somveersingh306599@gmail.com</p>
+                            <p><span style="font-weight: 600;color:rgb(187, 182, 17);font-size: 22px;">LinkdIn:
+                                </span><a href="https://www.linkedin.com/in/somveer-singh-0205971ab/">Visit Profile</a></p>
+
+                        </div>
+                        <div class="rightfooter">
+                            <h3>Name</h3>
+                            <input id="namein" type="text" name="name" placeholder="Enter Your Name">
+                            <h3 id="textcm">Comment</h3>
+                            <input id="textin" type="text" name="message" placeholder="Drop your comment">
+                            <button id="btn">Contact Us</button>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/5af15d9d2d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Flutter Developer.', 'Android Developer.','ML Engineer.',  'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 5);
+    font-family: "Ubuntu", sans-serif;
+    color: #fff;
+}
+nav{
+    display: flex;
+    background-color: rgb(6, 6, 31);
+    box-shadow: 10px 10px 54px rgba(41, 40, 58, 0.6);
+    justify-content:space-around;
+    align-items: center;
+    height:9vh;
+    text-decoration: none;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+nav ul li{
+    list-style:none;
+    color: #fff;
+    margin: 0 23px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;;
+}
+nav ul li a:hover{
+    color: lavender;
+} 
+
+.left{
+    font-size:32px;
+}
+.service{
+    margin-top: 9%;
+    margin-left:8%;
+    
+    
+}
+.service p{
+    margin-top:20px;
+    color: #b0b0b0;
+    line-height:1.5rem;
+    word-spacing:3px;
+    margin-bottom: 25px;
+    
+
+}
+.service h1{
+    font-size:29px;
+    font-weight: 700;
+}
+body {
+    background-color: rgb(0, 0, 5);
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.skills-section {
+    max-width: 1000px;
+    margin: 100px auto;
+    background: rgb(6, 6, 31);
+    border-radius: 10px;
+    box-shadow: 10px 10px 54px rgba(41, 40, 58, 0.6);
+    padding: 40px;
+}
+
+.skills-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills-header h1 {
+    font-size: 2rem;
+    color: rgb(187, 182, 17);
+}
+
+.skills-description {
+    color: #b0b0b0;
+    margin-top: 10px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.skill-item {
+    background-color: rgb(9, 9, 34);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100px;
+    height: 110px;
+}
+
+.skill-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(115, 110, 207, 0.844);
+}
+
+.skill-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.skill-item span {
+    font-size: 0.9rem;
+    display: block;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .skills-section {
+        margin: 60px 20px;
+    }
+}
+.footer{
+    background-color:rgb(3, 3, 17);
+    width: 100%; 
+    height:150%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.centerfooter{
+    background-color:rgb(3, 3, 17);
+    text-align: center;
+    justify-content: center;
+}
+
+.containerfooter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    
+}
+.centerfooter h1{
+    padding-top: 38px;
+}
+.centerfooter p{
+    color: #b0b0b0;
+    line-height:1.5rem;
+    word-spacing:3px;
+    margin-top: 10px;
+    
+    
+}
+
+.leftfooter p{  
+    color: #b0b0b0;
+    margin-bottom: 25px;
+
+}
+.rightfooter{
+    display:inline;
+    width:30%;
+    text-align: start;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border-radius:10px;
+    margin-bottom: 35px;
+    background-color: rgb(6, 6, 27);
+
+}
+.rightfooter:hover{
+    box-shadow: 10px 10px 54px rgba(41, 40, 58, 0.6);
+
+}
+.rightfooter #namein,#textin{
+    display:flex;
+    height: 40px;
+    width:30vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 15%;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #b0b0b0;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    border:0;
+}
+.rightfooter #textcm{
+    margin-top: 10px;
+}
+.rightfooter #btn{
+    margin-top:20px;
+    border: 0;
+    background: none;
+    color: #1a1a1a;
+    background-color:  rgb(187, 182, 17);
+    height:6vh;
+    width:40%;
+    border-radius:5px;
+    font-size: 16px;
+    font-family: "ubuntu","sans-sarif";
+    cursor: pointer;
+    word-spacing:5px;
+}
+.rightfooter #btn:hover{
+    background-color:rgb(230, 225, 100) ;
+    
+}

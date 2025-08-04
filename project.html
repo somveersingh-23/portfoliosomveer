@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somveer- Developer Personal Portfolio</title>
+    <meta name="title" content="PersonalPortfolio">
+    <meta name="description" content="This is a personal portfolio made by Somveer Singh">
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Somveer's <span style="color:  rgb(187, 182, 17);">Portfolio</span></div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">skills</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="projects" class="projects">
+            <h2><span style="color: #fff">My </span><span style="color: rgb(187, 182, 17);">Projects</span></h2>
+            <div class="carousel">
+                <button class="nav-btn left-btn" onclick="prevSlide()">&#10094;</button>
+                <div class="card-container">
+                    <!-- Repeatable project cards -->
+                    <div class="card" onclick="window.open('https://musicplayerspotifyclone.netlify.app/','_blank');" style="cursor: pointer;">
+                        <img src="img/spotify_clone.png" alt="Project 1">
+                        <h3>Spotify Player</h3>
+                    </div>
+                    <div class="card" onclick="window.open('https://ecomeerceshopkart.netlify.app/','_blank');" style="cursor: pointer;">
+                        <img src="img/ecom_web.png" alt="Project 2">
+                        <h3>ShopKart E-Com</h3>
+                    </div>
+                    <div class="card" onclick="window.open('https://rvitlearninghub.netlify.app/','_blank');" style="cursor: pointer;">
+                        <img src="img/college_learn.png" alt="Project 3">
+                        <h3>RVITlearningHub</h3>
+                    </div>
+                    <div class="card" onclick="window.open('https://somveer23portfolio.netlify.app/','_blank');" style="cursor: pointer;">
+                        <img src="img/portfolio_proj.png" alt="Project 4">
+                        <h3>Portfolio Proj</h3>
+                    </div>
+                    <div class="card" onclick="window.open('https://github.com/somveersingh-23/GymManagementGui/','_blank');" style="cursor: pointer;">
+                        <img src="img/gym.jpg" alt="Project 5">
+                        <h3>Gym management</h3>
+                    </div>
+                    <div class="card" onclick="window.open('https://github.com/somveersingh-23/HospitalManageMentGui','_blank');" style="cursor: pointer;">
+                        <img src="img/hospital.jpg" alt="Project 6">
+                        <h3>Hospital management</h3>
+                    </div>
+                    <div class="card" onclick="window.open('https://github.com/somveersingh-23/internpeWebDevTask3/','_blank');" style="cursor: pointer;">
+                        <img src="img/todo.png" alt="Project 7">
+                        <h3>To-do list</h3>
+                    </div>
+                    <div class="card" onclick="window.open('https://github.com/somveersingh-23/CodeSoft_webDevInt_Lev1Task1/','_blank');" style="cursor: pointer;">
+                        <img src="img/business.png" alt="Project 8">                 
+                        <h3>Business website</h3>
+                    </div>
+                </div>
+                <button class="nav-btn right-btn" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer">
+                <div class="centerfooter">
+                    <h1 class="h1footer">Contact <span style="color:rgb(187, 182, 17);">me</span></h1>
+                    <p class="h2footer">Feel free to reach out. Let’s collaborate to bring your ideas to life!</p>
+                </div>
+                <div class="containerfooter">
+                    <div class="leftfooter">
+                        <p><span style="font-weight: 600;color:rgb(187, 182, 17); font-size: 22px;">Address:
+                            </span>Bijnor,UP,IND</p>
+                        <p><span style="font-weight: 600;color:rgb(187, 182, 17);font-size: 22px;">Phone:
+                            </span>+919690162617/3875</p>
+                        <p><span style="font-weight: 600;color:rgb(187, 182, 17);font-size: 22px;">E-mail:
+                            </span>somveersingh306599@gmail.com</p>
+                        <p><span style="font-weight: 600;color:rgb(187, 182, 17);font-size: 22px;">LinkdIn:
+                            </span><a href="https://www.linkedin.com/in/somveer-singh-0205971ab/">Visit Profile</a></p>
+
+                    </div>
+                    <div class="rightfooter">
+                        <h3>Name</h3>
+                        <input id="namein" type="text" name="name" placeholder="Enter Your Name">
+                        <h3 id="textcm">Comment</h3>
+                        <input id="textin" type="text" name="message" placeholder="Drop your comment">
+                        <button id="btn">Contact Us</button>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/5af15d9d2d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Coder.', 'Web Designer.', 'Software Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
