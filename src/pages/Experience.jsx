@@ -226,14 +226,14 @@ const Experience = () => {
               delay={0.2}
             />
             <AchievementCard 
-              number="30+" 
+              number="15+" 
               label="Projects Built" 
               icon="🚀" 
               gradient="from-purple-500 to-pink-500"
               delay={0.3}
             />
             <AchievementCard 
-              number="50+" 
+              number="30+" 
               label="Skills Mastered" 
               icon="⚡" 
               gradient="from-orange-500 to-red-500"
